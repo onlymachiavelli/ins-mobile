@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/card_background"
+        android:elevation="6dp"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Policy Details"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"
+            android:textColor="#333333" />
+
+        <!-- Policy Type -->
+        <EditText
+            android:id="@+id/policyTypeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Policy Type"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Face Amount -->
+        <EditText
+            android:id="@+id/faceAmountInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Face Amount"
+            android:inputType="number"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Premium Mode -->
+        <EditText
+            android:id="@+id/premiumModeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Premium Mode"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Premium Amount -->
+        <EditText
+            android:id="@+id/premiumAmountInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Premium Amount"
+            android:inputType="numberDecimal"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Policy Term -->
+        <EditText
+            android:id="@+id/policyTermInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Policy Term (Years)"
+            android:inputType="number"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Beneficiary Name -->
+        <EditText
+            android:id="@+id/beneficiaryNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Beneficiary Name"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Beneficiary Relationship -->
+        <EditText
+            android:id="@+id/beneficiaryRelationshipInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Beneficiary Relationship"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Contingent Beneficiary Name -->
+        <EditText
+            android:id="@+id/contingentBeneficiaryNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contingent Beneficiary Name"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Contingent Beneficiary Relationship -->
+        <EditText
+            android:id="@+id/contingentBeneficiaryRelationshipInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contingent Beneficiary Relationship"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Effective Date -->
+        <EditText
+            android:id="@+id/effectiveDateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Effective Date (YYYY-MM-DD)"
+            android:inputType="date"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Expiration Date -->
+        <EditText
+            android:id="@+id/expirationDateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expiration Date (YYYY-MM-DD)"
+            android:inputType="date"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitPolicyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Policy"
+            android:background="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:padding="12dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
